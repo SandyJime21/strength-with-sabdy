@@ -1,0 +1,57 @@
+.About-me {
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.box-section {
+    display: flex;
+    width: 33.33%;
+    margin: 10% 30%;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 0 2%;
+    padding: 2.5em;
+    text-align: center;
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.box-section2 {
+    display: flex;
+    width: 50%;
+    margin: 10% auto;
+}
+
+.box2 {
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 0.2em;
+}
+
+.each-slide {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container-slide {
+    width: 40em;
+    margin: auto;
+    padding-top: 10em;
+}
+
+.container-slide img {
+    height: 20em;
+}
+
+.autoSlide-img {
+    display: block;
+    margin: 0 auto;
+}

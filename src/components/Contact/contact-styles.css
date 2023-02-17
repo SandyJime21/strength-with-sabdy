@@ -1,0 +1,123 @@
+                .contact-body {
+                    background-color: #d5f3f2;
+                    width: 100%;
+                    top: 0.01em;
+                    bottom: -10em;
+                    position: fixed;
+                    z-index: -2;
+                }
+                
+                .contact-page {
+                    background-image: url("./open-evelope.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 99% 90%;
+                    height: 65%;
+                    margin: 5% auto;
+                    width: 50%;
+                    text-align: left;
+                }
+                
+                .contact-form {
+                    background-color: transparent;
+                    display: grid;
+                    width: 45%;
+                    margin: 1%;
+                    overflow: clip;
+                }
+                
+                .contact-box {
+                    margin: 1%;
+                    color: #0972c8;
+                    display: inline;
+                    width: 45%;
+                    word-wrap: break-word;
+                    font-size: large;
+                }
+                
+                .contact-pageAfter {
+                    background-image: url("./closed-envelope.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 50% 45%;
+                    height: 45%;
+                    margin: 12em auto;
+                    width: 50%;
+                }
+                
+                .title {
+                    text-align: center;
+                    color: #0972c8;
+                }
+                
+                .title2 {
+                    visibility: visible;
+                    text-align: center;
+                    color: #0972c8;
+                    font-size: 4em;
+                }
+                
+                .title2Before {
+                    visibility: hidden;
+                }
+                
+                .titleAfter {
+                    text-align: center;
+                    color: #0972c8;
+                    visibility: hidden;
+                }
+                
+                .contact-container {
+                    margin: 5.5% 20% 0 5%;
+                    display: inline-flex;
+                    width: 90%;
+                }
+                
+                .containerAfter {
+                    visibility: hidden;
+                }
+                
+                input,
+                textarea {
+                    border: #d5f3f2 solid 1px;
+                    border-radius: 7%;
+                    padding: .5%;
+                    margin: .5em auto;
+                    font-size: medium;
+                }
+                
+                textarea {
+                    font-size: larger;
+                    margin-bottom: 2em;
+                    width: 85%;
+                    height: 90%;
+                }
+                
+                .btn {
+                    border: #d5f3f2;
+                    padding: .5%;
+                    margin: 2em auto 1em;
+                    -webkit-border-radius: 28;
+                    -moz-border-radius: 28;
+                    border-radius: 28px;
+                    font-family: Arial;
+                    color: white;
+                    font-size: .9em;
+                    background: #0972c8;
+                    padding: 10px 20px 10px 20px;
+                    text-decoration: none;
+                }
+                
+                .btn:hover {
+                    background: #3cb0fd;
+                    background-image: -webkit-linear-gradient(top, #3cb0fd, #7daac9);
+                    background-image: -moz-linear-gradient(top, #3cb0fd, #7daac9);
+                    background-image: -ms-linear-gradient(top, #3cb0fd, #7daac9);
+                    background-image: -o-linear-gradient(top, #3cb0fd, #7daac9);
+                    background-image: linear-gradient(to bottom, #3cb0fd, #7daac9);
+                    text-decoration: none;
+                }
+                
+                h3 {
+                    font-family: 'Cedarville Cursive', cursive;
+                }

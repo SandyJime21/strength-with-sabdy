@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+/* Style the links inside the sidenav */
+
+#mySidenav a {
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    left: -3.3em;
+    padding: 0.9em;
+    position: absolute;
+    transition: 0.3s;
+    text-decoration: none;
+    width: 100px;
+    /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0;
+    /* On mouse-over, make the elements appear as they should */
+}
+
+#home {
+    background-color: #0972c8;
+    top: 2em;
+}
+
+#about {
+    background-color: #0a8256;
+    top: 5em;
+}
+
+#programs {
+    background-color: #cfa832;
+    top: 8em;
+}
+
+#contact {
+    top: 11em;
+    background-color: rgb(163, 26, 26)/* Light Black */
+}
+
+
+/* Header */
+
+.head {
+    background-color: azure;
+    overflow: hidden;
+    padding: 7em 1em;
+    position: sticky;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.header {
+    color: rgb(11, 94, 210);
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    margin-left: 4em;
+}
+
+.header-photo {
+    width: 2em;
+}
+
+.with {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 90%;
+    font-weight: bolder;
+}
+
+.myButton {
+    text-decoration: none;
+    float: right;
+    margin-right: 1em;
+    font-family: 'Lato', sans-serif;
+    color: rgb(11, 94, 210);
+}
+
+.myButton:hover {
+    color: #eceeef;
+    font-weight: bolder;
+    background-color: #0972c8;
+}
+
+
+/* Features */
+
+.features {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.3em;
+    margin: 10%;
+}
+
+.column,
+.column2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.row2 {
+    margin: 10% 0;
+}
+
+.row2,
+.feature-img {
+    background-color: azure;
+}
+
+.feature-img {
+    width: 60%;
+    height: auto;
+}
+
+.feature-video {
+    width: 80%;
+}
+
+.feature-p {
+    margin-top: 20%;
+}
+
+.testimonial-container,
+.testimonial-slides,
+.testimonial-img {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.legend,
+.testimonial-h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(11, 94, 210);
+    width: 40%;
+}
+
+.testimonial-h1 {
+    margin: 0 30%;
+}
+
+li {
+    padding: 0 0.5em;
+}
+
+.testimonial-row {
+    display: flex;
+    width: 100%;
+}
+
+.name {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 150%;
+    color: rgb(2, 162, 210);
+}
+
+
+/* Footer */
+
+.site-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #26272b;
+    padding: 3.5em 2em;
+    width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: rgb(11, 94, 210);
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: rgb(11, 94, 210);
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+    background-color: pink;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6;
+}

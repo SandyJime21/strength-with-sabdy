@@ -1,0 +1,51 @@
+.programs {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program-header {
+    color: rgb(11, 94, 210);
+    font-size: 3em;
+}
+
+.top-section {
+    background-color: azure;
+}
+
+.program-slides {
+    width: 20em;
+    margin: 0 auto;
+}
+
+.slide-img {
+    width: 10em;
+}
+
+.icon {
+    background-color: white;
+    width: 6em;
+    z-index: 1;
+    right: -5%;
+}
+
+.plans {
+    color: rgb(11, 94, 210);
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.plans-header {
+    font-size: 2em;
+}
+
+.aboutCompanyText,
+.icon {
+    margin: 0 auto;
+    position: relative;
+    top: -35%;
+}
+
+
+/* .box-section {} */
