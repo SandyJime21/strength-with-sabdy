@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/strength-with-sabdy/static/css/main.2ab1b494.css",
+    "main.js": "/strength-with-sabdy/static/js/main.ea04d971.js",
+    "static/media/workout.mp4": "/strength-with-sabdy/static/media/workout.201c4e0d23e0fc4313ee.mp4",
+    "static/media/open-evelope.png": "/strength-with-sabdy/static/media/open-evelope.3c75c0b8a0c0256087c6.png",
+    "static/media/closed-envelope.png": "/strength-with-sabdy/static/media/closed-envelope.13d135be707214010b0a.png",
+    "static/media/strength.png": "/strength-with-sabdy/static/media/strength.a809abb6d7560e060477.png",
+    "static/media/fitness woman.png": "/strength-with-sabdy/static/media/fitness woman.ce953e030b9c3c1c43ee.png",
+    "index.html": "/strength-with-sabdy/index.html",
+    "main.2ab1b494.css.map": "/strength-with-sabdy/static/css/main.2ab1b494.css.map",
+    "main.ea04d971.js.map": "/strength-with-sabdy/static/js/main.ea04d971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ab1b494.css",
+    "static/js/main.ea04d971.js"
+  ]
+}
